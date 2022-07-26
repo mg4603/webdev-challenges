@@ -1,3 +1,8 @@
+.box::before{
+    content: "Hello World";
+    width: 50%;
+    text-align: center;
+}
 .box {
 	width:280px;
 	height:280px;
