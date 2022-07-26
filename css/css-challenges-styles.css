@@ -19,3 +19,9 @@
 #hello-world::before{
     content: "Hello World";
 }
+
+#hello-world-again::before{
+    content: "Hello World";
+    width: 50%;
+    text-align: center;
+}
