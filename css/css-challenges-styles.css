@@ -25,3 +25,12 @@
     width: 50%;
     text-align: center;
 }
+
+#empty-world::before{
+    content:"Hello World";
+    color:white;
+    text-shadow:0 1q #000,
+            0 -1q #000,
+            1q 0 #000,
+            -1q 0 #000
+}
