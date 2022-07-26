@@ -12,6 +12,10 @@
 
 #fading-world::before{
     content:"Hello World";
-    mask: linear-gradient(90deg, #000, #0002)
+    mask: linear-gradient(90deg, #000, #0002);
     
+}
+
+#hello-world::before{
+    content: "Hello World";
 }
