@@ -10,3 +10,9 @@
     --sky-800 : #075985;
     --sky-900 : #0C4A6E;
 }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
