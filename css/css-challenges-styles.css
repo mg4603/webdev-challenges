@@ -1,3 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 280px);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
 .box {
 	width:280px;
 	height:280px;
