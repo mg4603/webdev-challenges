@@ -26,28 +26,37 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.nav-bar{
+.container.start-page .nav-bar{
     width: 100vw;
-    flex-shrink: 1;
+    flex-shrink: 0;
     display: flex;
     padding: 7px 15px ;
 }
-.nav-bar > ul{
+.container.start-page .nav-bar > ul{
     list-style: none;
     display: flex;
     margin-left: auto;
     gap: 15px;
     align-items: center;
 }
-.nav-bar > ul a{
+.container.start-page .nav-bar > ul a{
     text-decoration: none;
     color: white
 }
-.nav-bar .icon{
+.container.start-page .nav-bar .icon{
     height: 40px;
     width: 40px;
 }
 
-.nav-bar button{
+.container.start-page .nav-bar button{
     padding: 9px 23px;
+}
+.container.start-page .logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 290px;
+    height: calc(100%  - 560px);
+    min-height: 92px;
+    flex-shrink: 0;
 }
