@@ -1,0 +1,12 @@
+:root{
+    --bg-cl: #202124;
+    --line-cl: #3c4043;
+    --footer-cl: #171717;
+    --link-cl: #8ab4f8;
+    --text-cl-footer: #999da2;
+    --btn-bg: #303134; /* hover search bg*/
+    --btn-text: #e8eaed;
+    --text-color-body: #bdc1c6;
+    --search-border: #5f6368;
+    --search-bg: #202124;
+}
