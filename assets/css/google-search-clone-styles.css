@@ -11,3 +11,13 @@
     --search-bg: #202124;
     --sing-in-btn-bg: #8ab4f8;
 }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: var(--text-color-body);
+    background-color: var(--bg-cl);
+}
