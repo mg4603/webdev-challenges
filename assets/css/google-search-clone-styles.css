@@ -21,3 +21,26 @@ body{
     color: var(--text-color-body);
     background-color: var(--bg-cl);
 }
+.nav-bar{
+    display: flex;
+    padding: 7px 15px ;
+}
+.nav-bar > ul{
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    gap: 15px;
+    align-items: center;
+}
+.nav-bar > ul a{
+    text-decoration: none;
+    color: white
+}
+.nav-bar .icon{
+    height: 40px;
+    width: 40px;
+}
+
+.nav-bar button{
+    padding: 9px 23px;
+}
