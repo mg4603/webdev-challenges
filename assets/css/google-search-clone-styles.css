@@ -75,3 +75,18 @@ body{
     list-style: none;
     align-items: center;
 }
+.container.start-page .start-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.container.start-page .start-footer .start-footer-links {
+    display: flex;
+}
+.container.start-page .start-footer .start-footer-links ul{
+    list-style: none;
+    display: flex;
+}
+.container.start-page .start-footer .start-footer-links ul a{
+    text-decoration: none;
+}
