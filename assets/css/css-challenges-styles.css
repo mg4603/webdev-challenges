@@ -61,7 +61,7 @@
 	text-align:right;
 	padding-right:7px;
 }
-#black-or-white:after{
+#black-or-white::after{
 	padding-left: 7px;
 	height: 100%;
 	width:50%;
@@ -71,4 +71,12 @@
 	content:"World";
 	color: white;
 	background: black;
+}
+#hit-the-target{
+	background: radial-gradient(#c39f76 26q,
+			white 27q 52q,
+			#c39f76 53q 79q,
+			white 80q 106q,
+			#c39f76 0 133q, 
+			white 0);
 }
