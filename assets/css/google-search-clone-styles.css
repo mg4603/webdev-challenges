@@ -63,8 +63,24 @@ body{
 
 .container.start-page .start-search-bar{
     display: flex;
+    border: 1px solid var(--search-border);
+    border-radius: 12px;
+    padding: 2px 8px;
+    background-color: var(--search-bg);
+    width: 30rem;
+    flex: 1;
 }
-
+.container.start-page .start-search-bar input{
+    background-color: var(--search-bg);
+    border: 1px solid transparent;
+    width: 100%;
+    
+    
+}
+.container.start-page .start-search-bar img{
+    width: 20px;
+    height: 20px;
+}
 .container.start-page form .start-buttons ul{
     list-style: none;
     display: flex;
