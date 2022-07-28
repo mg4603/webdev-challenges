@@ -100,3 +100,10 @@
 	 filter: blur(.5px);
 	
 }
+#rounded-line::before{
+	content:"";
+	width: 200px;
+	height: 50px;
+	background: #c39f76;
+	border-radius: 30px;
+}
