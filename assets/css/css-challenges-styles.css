@@ -126,3 +126,8 @@
 	top: 45px;
 	border: 10px solid white;
 }
+#the-moon{
+	background: radial-gradient(circle at 60% 40%, #fff 35%, #0000 36%),
+	radial-gradient(#c39f76 50%, #fff 51%);
+	
+}
