@@ -135,3 +135,21 @@
 	content: "";
 	border: 70px solid #c39f76;
 }
+#missing-border{
+	position: relative;
+}
+#missing-border::before{
+	content:"";
+	box-sizing:border-box;
+	width: 141px;
+	height: 141px;
+	border: 22px solid #c39f76;
+}
+#missing-border::after{
+	content:"";
+	position:absolute;
+	top: 65px;
+	width: 40px;
+	height: 30px;
+	background: #fff;
+}
