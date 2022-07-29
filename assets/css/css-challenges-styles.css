@@ -131,3 +131,7 @@
 	radial-gradient(#c39f76 50%, #fff 51%);
 	
 }
+#the-box::after{
+	content: "";
+	border: 70px solid #c39f76;
+}
