@@ -107,3 +107,22 @@
 	background: #c39f76;
 	border-radius: 30px;
 }
+#power-off{
+	position: relative;
+}
+#power-off::before{
+	content: "";
+	width: 139px;
+	height: 139px;
+	background: radial-gradient(white 0q 53q, #c39f76 54q);
+	border-radius: 50%;
+}
+#power-off::after{
+	content: "";
+	position: absolute;
+	padding: 30px 10px 58px;
+	background-color: #c39f76;
+	border-radius: 20px;
+	top: 45px;
+	border: 10px solid white;
+}
