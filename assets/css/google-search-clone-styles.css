@@ -66,10 +66,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-height: 290px;
-    height: calc(100%  - 560px);
-    min-height: 92px;
     flex-shrink: 0;
+    justify-content: end;
+    margin-bottom: 3vh;
+    height: 29%;
+}
+.container.start-page .logo img{
+    height: 80px;
 }
 
 .container.start-page .start-search-bar{
@@ -78,10 +81,11 @@ body{
     border-radius: 20px;
     padding: 9px 15px;
     background-color: var(--search-bg);
-    width: 35rem;
+    width: 32rem;
     flex: 0;
     gap: 1vw;
 }
+.container.start-page .start-search-bar:hover,
 .container.start-page .start-search-bar:focus-within{
     background-color: var(--search-border);
     filter: brightness(60%);   
