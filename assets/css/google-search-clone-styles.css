@@ -120,6 +120,21 @@ body{
     color: var(--text-cl-footer);
     
 }
+.start-buttons ul{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;  
+    gap: 0.7vw;
+}
+.start-buttons button{
+    background-color: var(--line-cl);
+    border: none;
+    padding: 8px 15px;
+    color: white;
+    filter: brightness(90%);
+    border-radius: 4px;
+    font-size: .73rem;
+}
 .container.start-page .start-footer div:first-child{
     border-bottom: 1px solid  #999da242;
     font-size: 0.85rem;
